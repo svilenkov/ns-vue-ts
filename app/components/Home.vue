@@ -15,14 +15,15 @@
     </Page>
 </template>
 
-<script>
-    export default {
-        computed: {
-            message() {
-                return "Blank {N}-Vue app";
-            }
-        }
-    };
+<script lang="ts">
+import { Component, Vue } from "vue-property-decorator";
+
+@Component
+export default class Home extends Vue {
+    get message() {
+        return "Ceresit Mobile App v1";
+    }
+}
 </script>
 
 <style scoped lang="scss">

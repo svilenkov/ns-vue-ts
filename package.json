@@ -23,7 +23,11 @@
     "nativescript-dev-webpack": "~1.2.0",
     "nativescript-vue-template-compiler": "~2.4.0",
     "node-sass": "^4.7.1",
-    "vue-loader": "~15.4.0"
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.4",
+    "vue": "^2.6.10",
+    "vue-loader": "~15.4.0",
+    "vue-property-decorator": "^8.3.0"
   },
   "gitHead": "1964ea9e8ca1a0518e0d6370781eedcf6c23db42",
   "readme": "NativeScript Application"
